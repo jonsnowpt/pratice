@@ -1,2 +1,0 @@
-# pratice
-Test projects
