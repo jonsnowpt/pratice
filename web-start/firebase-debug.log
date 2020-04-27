@@ -1,0 +1,22 @@
+[debug] [2020-04-27T14:20:15.735Z] ----------------------------------------------------------------------
+[debug] [2020-04-27T14:20:15.737Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2020-04-27T14:20:15.737Z] CLI Version:   8.1.1
+[debug] [2020-04-27T14:20:15.737Z] Platform:      darwin
+[debug] [2020-04-27T14:20:15.737Z] Node Version:  v12.16.2
+[debug] [2020-04-27T14:20:15.737Z] Time:          Mon Apr 27 2020 15:20:15 GMT+0100 (Western European Summer Time)
+[debug] [2020-04-27T14:20:15.737Z] ----------------------------------------------------------------------
+[debug] [2020-04-27T14:20:15.737Z] 
+[debug] [2020-04-27T14:20:15.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-27T14:20:15.743Z] > authorizing via signed-in user
+[debug] [2020-04-27T14:20:15.743Z] [iam] checking project friendlychat-5d727 for permissions ["firebase.projects.get"]
+[debug] [2020-04-27T14:20:15.745Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-5d727:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-27T14:20:16.634Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 14:20:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=779","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-27T14:20:16.635Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-5d727  
+ 
+[debug] [2020-04-27T14:20:16.853Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 14:20:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-27T14:20:16.861Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-5d727/webApps/-/config  
+ 
+[debug] [2020-04-27T14:20:17.531Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Apr 2020 14:20:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: ./public
+[info] ✔  hosting: Local server: http://localhost:5000
